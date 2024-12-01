@@ -1,0 +1,47 @@
+
+/*Styling the cookie footer banner*/
+.body {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;*/
+}
+
+/*Container Class */
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #181818;;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.cookie-btn {
+    border: none;
+    padding: 10px 24px;
+    color: #fff;
+    margin: 0 5px;
+}
+
+/*Styling buttons*/
+#accept-btn {
+    background-color: white; /* White background for Accept button */
+    color: #181818; /* Dark text color for contrast */
+}
+
+#decline-btn {
+    background-color: #d31148; /* Red background for Decline button */
+    color: #fff; /* White text color */
+}
+
+/*Hoovering effect */
+.cookie-btn:hover {
+    background-color: #d62839;
+}
